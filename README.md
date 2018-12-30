@@ -1,3 +1,8 @@
+This is a test project dedicated to python-based semantic web programming. Accordingly, rdflib is forked to be modified.
+
+In particular, the aim is to add other defined namespaces other than those present in the library.
+
+
 RDFLib
 ======
 [![Build Status](https://travis-ci.org/RDFLib/rdflib.png?branch=master)](https://travis-ci.org/RDFLib/rdflib)
