@@ -76,7 +76,8 @@ __all__ = [
     'is_ncname', 'split_uri', 'Namespace',
     'ClosedNamespace', 'NamespaceManager',
     'XMLNS', 'RDF', 'RDFS', 'XSD', 'OWL',
-    'SKOS', 'DOAP', 'FOAF', 'DC', 'DCTERMS', 'VOID']
+    'SKOS', 'DOAP', 'FOAF', 'DC', 'DCTERMS', 'VOID',
+    'SWRL', 'SWRLB', 'PPO', 'CSO', 'CCO']
 
 logger = logging.getLogger(__name__)
 
@@ -252,6 +253,16 @@ FOAF = Namespace('http://xmlns.com/foaf/0.1/')
 DC = Namespace('http://purl.org/dc/elements/1.1/')
 DCTERMS = Namespace('http://purl.org/dc/terms/')
 VOID = Namespace('http://rdfs.org/ns/void#')
+
+# adding new Namespaces
+
+SWRL = Namespace('http://www.w3.org/2003/11/swrl#')
+SWRLB = Namespace('http://www.w3.org/2003/11/swrlb#')
+
+PPO = Namespace('http://www.semanticweb.org/SBU/CAFCM-ontology/ProjectProfileLayer#')
+CSO = Namespace('http://www.semanticweb.org/SBU/CAFCM-ontology/ContextSenseLayer#')
+CCO = Namespace('http://www.semanticweb.org/SBU/CAFCM-ontology/ChangeCausalityLayer#')
+
 
 
 class NamespaceManager(object):
